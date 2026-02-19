@@ -50,3 +50,23 @@ window.onload = () => {
     console.log("Buenas noches, ¿qué tal un postre ligero para cerrar el día?");
   }
 };
+
+// Animación de aparición al hacer scroll
+const observerOptions = {
+  threshold: 0.1,
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("opacity-100", "translate-y-0");
+      entry.target.classList.remove("opacity-0", "translate-y-10");
+    }
+  });
+}, observerOptions);
+
+// Aplicar a todas las secciones
+document.querySelectorAll("section").forEach((section) => {
+  section.classList.add("transition-all", "duration-1000", "opacity-0", "translate-y-10");
+  observer.observe(section);
+});
