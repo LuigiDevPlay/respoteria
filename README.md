@@ -25,7 +25,7 @@ _(¡Suscríbete para ver más proyectos como este!)_
 ## 🚀 Vista Previa
 
 Puedes ver el sitio en vivo aquí:  
-👉 **[https://tu-usuario.github.io/tu-repo/](https://tu-usuario.github.io/tu-repo/)**
+👉 **[https://luigidevplay.github.io/respoteria/](https://luigidevplay.github.io/respoteria/)**
 
 ---
 
