@@ -1,14 +1,16 @@
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Configuración de editores
 .vscode/
 .idea/
 
-# Si llegas a usar npm/node en el futuro
+# Node / Dependencias (por si usas Tailwind CLI)
 node_modules/
+dist/
 .env
 
-# Archivos de log
+# Logs
 *.log
